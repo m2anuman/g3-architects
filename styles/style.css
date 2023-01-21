@@ -1,0 +1,217 @@
+/* ---------
+    Fonts
+---------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* ------------------
+    Common Styles
+------------------- */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --seal-brown: #131313;
+    --dim-gray: #727272;
+    --dark-grey: #424242;
+    --white: #ffffff;
+    --dark-orange: #FF900E;
+}
+
+.btn-primary {
+    color: var(--white);
+    font-weight: 700px;
+    font-size: 20px;
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    background: var(--dark-orange);
+    border: 0px;
+}
+
+/* --------------------
+    Header and Nav 
+---------------------*/
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--seal-brown);
+    padding: 2.7% 0 0 12%;
+}
+
+nav ul {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 3.3% 12% 0 0;
+    gap: 40px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 1% 2% 1%;
+    text-align: center;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--seal-brown);
+}
+
+.header-description {
+    margin-top: 30px;
+    color: var(--dim-gray);
+    margin-bottom: 30px;
+}
+
+.banner-img {
+    width: 80%;
+    margin-top: 50px;
+}
+
+/* -----------------------
+    Our Features Section 
+---------------------------*/
+
+.our-features {
+    display: flex;
+    align-items: center;
+    padding: 85px 15% 120px 15%;
+}
+
+.our-features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features-info {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-features-info h2 {
+    color: var(--dim-gray);
+    font-weight: 500;
+    font-size: 45px
+}
+
+.our-features-info h2 .seal-brown {
+    color: var(--seal-brown);
+    font-weight: 700;
+}
+
+.our-features-info h2 .dark-orange {
+    color: var(--dark-orange);
+    font-weight: 700;
+}
+
+.our-features-info p {
+    color: var(--dim-gray);
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+/* ----------------------------
+    Features List Section 
+-----------------------------*/
+
+.features {
+    display: flex;
+    margin: 0 10% 160px 10%;
+    gap: 12%;
+}
+
+.features-lists {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.lists-info .title {
+    border-left: thick solid var(--dark-orange);
+}
+
+.lists-info .title h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-left: 20px;
+}
+
+.lists-info p {
+    color: var(--dim-gray);
+    padding-top: 24px;
+    width: 600px;
+}
+
+.list {
+    width: 514px;
+    height: 78px;
+    padding: 30px 30px 45px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.list h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--seal-brown);
+}
+
+.list p {
+    color: var(--dim-gray);
+    padding-top: 10px;
+}
+
+.img-10years {
+    display: inline-block;
+    position: relative;
+}
+
+.img-10years button {
+    font-size: 65px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--dark-orange);
+    border-radius: 5px;
+    color: var(--white);
+    padding: 46px 42px;
+    white-space: normal;
+    border: 0;
+}
+
+.img-10years button .experience {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* -----------------------
+    Some Facts Section
+------------------------ */
+
