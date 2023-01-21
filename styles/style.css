@@ -35,7 +35,8 @@
     font-size: 45px;
     color: var(--seal-brown);
 }
-.description{
+
+.description {
     color: var(--dim-gray);
 }
 
@@ -226,6 +227,10 @@ nav a {
     Some Facts Section
 ------------------------ */
 
+.some-facts {
+    margin: 0 0 150px 0;
+}
+
 .facts-title {
     margin: 0 0 0 12%;
 }
@@ -248,12 +253,29 @@ nav a {
     margin: 100px 14% 0 14%;
 }
 
-.box {
+div .box {
     border: 1px solid var(--dark-orange);
     border-radius: 8px;
     width: 240px;
     height: 240px;
 }
-.box .description{
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    width: 45px;
+    height: 45px;
+}
+
+.box .description {
     font-weight: 600;
 }
+
+/* -------------------------
+    Our Sponsors Section
+--------------------------- */
