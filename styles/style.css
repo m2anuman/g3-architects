@@ -30,6 +30,15 @@
     border: 0px;
 }
 
+.title {
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--seal-brown);
+}
+.description{
+    color: var(--dim-gray);
+}
+
 /* --------------------
     Header and Nav 
 ---------------------*/
@@ -147,6 +156,7 @@ nav a {
 .features-lists {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding-top: 30px;
 }
 
 .lists-info .title {
@@ -163,6 +173,7 @@ nav a {
 .lists-info p {
     color: var(--dim-gray);
     padding-top: 24px;
+    padding-bottom: 30px;
     width: 600px;
 }
 
@@ -215,3 +226,34 @@ nav a {
     Some Facts Section
 ------------------------ */
 
+.facts-title {
+    margin: 0 0 0 12%;
+}
+
+.facts-title h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--seal-brown);
+}
+
+.facts-title p {
+    color: var(--dim-gray);
+    width: 540px;
+    padding-top: 24px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 14% 0 14%;
+}
+
+.box {
+    border: 1px solid var(--dark-orange);
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+}
+.box .description{
+    font-weight: 600;
+}
