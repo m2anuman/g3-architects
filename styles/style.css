@@ -30,6 +30,11 @@
     border: 0px;
 }
 
+.h2-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--seal-brown);
+}
 .title {
     font-weight: 600;
     font-size: 45px;
@@ -52,10 +57,7 @@ nav {
     justify-content: space-between;
 }
 
-.nav-title {
-    font-weight: 700;
-    font-size: 45px;
-    color: var(--seal-brown);
+.header nav .h2-title {
     padding: 2.7% 0 0 12%;
 }
 
@@ -122,24 +124,16 @@ nav a {
     flex-direction: column;
 }
 
-.our-features-info h2 {
+.our-features-info .dim-gray {
     color: var(--dim-gray);
     font-weight: 500;
-    font-size: 45px
-}
-
-.our-features-info h2 .seal-brown {
-    color: var(--seal-brown);
-    font-weight: 700;
 }
 
 .our-features-info h2 .dark-orange {
     color: var(--dark-orange);
-    font-weight: 700;
 }
 
-.our-features-info p {
-    color: var(--dim-gray);
+.our-features-info .description {
     padding-top: 24px;
     padding-bottom: 32px;
 }
@@ -162,17 +156,10 @@ nav a {
 
 .lists-info .title {
     border-left: thick solid var(--dark-orange);
-}
-
-.lists-info .title h2 {
-    font-weight: 700;
-    font-size: 45px;
-    color: #131313;
     padding-left: 20px;
 }
 
-.lists-info p {
-    color: var(--dim-gray);
+.lists-info .description {
     padding-top: 24px;
     padding-bottom: 30px;
     width: 600px;
@@ -231,17 +218,17 @@ nav a {
     margin: 0 0 150px 0;
 }
 
-.facts-title {
+.facts-info {
     margin: 0 0 0 12%;
 }
 
-.facts-title h2 {
+/* .facts-info h2 {
     font-weight: 700;
     font-size: 45px;
     color: var(--seal-brown);
-}
+} */
 
-.facts-title p {
+.facts-info p {
     color: var(--dim-gray);
     width: 540px;
     padding-top: 24px;
@@ -265,6 +252,7 @@ div .box {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 7px;
 }
 
 .box img {
@@ -279,3 +267,4 @@ div .box {
 /* -------------------------
     Our Sponsors Section
 --------------------------- */
+
