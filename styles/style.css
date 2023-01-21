@@ -30,11 +30,12 @@
     border: 0px;
 }
 
-.h2-title{
+.h2-title {
     font-weight: 700;
     font-size: 45px;
     color: var(--seal-brown);
 }
+
 .title {
     font-weight: 600;
     font-size: 45px;
@@ -190,22 +191,23 @@ nav a {
 }
 
 .img-10years button {
-    font-size: 65px;
-    font-weight: 700;
-    text-decoration: none;
     text-align: center;
     position: absolute;
     bottom: 20px;
     left: 20px;
     background-color: var(--dark-orange);
-    border-radius: 5px;
+    border-radius: 10px;
     color: var(--white);
     padding: 46px 42px;
-    white-space: normal;
     border: 0;
 }
 
-.img-10years button .experience {
+.img-10years button .year {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.img-10years button {
     font-size: 25px;
     font-weight: 500;
 }
@@ -221,12 +223,6 @@ nav a {
 .facts-info {
     margin: 0 0 0 12%;
 }
-
-/* .facts-info h2 {
-    font-weight: 700;
-    font-size: 45px;
-    color: var(--seal-brown);
-} */
 
 .facts-info p {
     color: var(--dim-gray);
@@ -268,3 +264,22 @@ div .box {
     Our Sponsors Section
 --------------------------- */
 
+.sponsors-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sponsors-info .description {
+    width: 540px;
+    padding-top: 24px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(1);
+    padding: 50px 13% 120px 13%;
+
+}
